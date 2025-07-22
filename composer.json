@@ -1,0 +1,20 @@
+{
+    "name": "jsmart/installer",
+    "description": "A universal web-based Laravel installer",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JSmart\\Installer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JSmart\\Installer\\InstallerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
